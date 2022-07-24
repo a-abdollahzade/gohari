@@ -1,0 +1,10 @@
+.carousel-container {
+  width: 85%;
+  margin: auto;
+  z-index: 3;
+}
+
+.carousel img {
+  height: 230px;
+  width: 4px;
+}
