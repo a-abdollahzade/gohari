@@ -1,0 +1,56 @@
+.footer-tab {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+.footer-tab ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.footer-tab ul li {
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.footer-icons {
+  font-size: 35px;
+  color: #fff;
+  align-content: center;
+  cursor: pointer;
+}
+
+.footer-icons:hover {
+  transform: scale(1.1);
+}
+
+.footer-li {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 50px;
+  left: 40%;
+  border-radius: 50px;
+  background-color: #8e44ad;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.footer-li:hover {
+  transform: scale(1.1);
+}
+
+.footer-icons-blue {
+  font-size: 35px;
+  color: #fff;
+  padding-top: 30px;
+}

@@ -2,19 +2,19 @@ import React from "react";
 
 import "../Video/video.css";
 
-import Video from "../../assets/maldivesVideo.mp4";
+import Video from "../../assets/video/maldivesVideo.mp4";
 
 function video() {
   return (
     <div className="video-conteiner">
-      <h2>lorem ipsum</h2>
+      <h2>درباره آستکو</h2>
       <video className="video" controls>
         <source src={Video} type="video/mp4" />
       </video>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        standard dummy text
+        درباره آستکو متن آزمایشیدرباره آستکو متن آزمایشیدرباره آستکو متن آزمایشی
+        درباره آستکو متن آزمایشی درباره آستکو متن آزمایشی درباره آستکو متن
+        آزمایشی درباره آستکو متن آزمایشی
       </p>
     </div>
   );

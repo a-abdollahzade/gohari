@@ -10,27 +10,4 @@
   top: 20px;
 }
 
-.logo {
-  color: rgb(0, 0, 255);
-  margin-left: 30px;
-}
 
-.nav {
-  margin-right: 30px;
-}
-
-.nav ul {
-  display: flex;
-}
-
-.nav ul li {
-  list-style: none;
-  font-size: 24px;
-  padding: 0px 10px 0px 10px;
-  cursor: pointer;
-}
-
-.nav ul li:hover {
-  color: rgba(255, 255, 255, 0.671);
-  transition: 0.2s;
-}

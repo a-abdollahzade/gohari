@@ -3,10 +3,27 @@ body {
   box-sizing: border-box;
   margin: 0;
   background-color: rgb(134, 134, 134);
+  font-family: yekan;
 }
 
 .container {
   width: 500px;
-  margin: 100px auto auto auto;
+  margin: 100px auto 100px auto;
   background-color: rgb(250, 249, 249);
+  border-radius: 15px;
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url("./assets/fonts/iranyekanwebregular.eot"); /* IE9 Compat Modes */
+  src: url("./assets/fonts/iranyekanwebregular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/iranyekanwebregular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./assets/fonts/iranyekanwebregular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("./assets/fonts/iranyekanwebregular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./assets/fonts/iranyekanwebregular.svg#svgFontName") format("svg"); /* Legacy iOS */
 }
